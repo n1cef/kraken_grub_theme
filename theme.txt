@@ -1,0 +1,42 @@
+
+title-text: "KrakenOs"
+title-font: "Dersu Uzala brush Regular 90"
+desktop-image: "astro.png"
+terminal-font: "Fira Code Regular 16"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "2"
+
+
+
++ boot_menu {
+    left = 0%           # Align to the left edge of the screen
+    width = 40%         # Reduce width to avoid stretching too far right (adjust as needed)
+    top = 25%           # Vertical position (keep this as-is or tweak)
+    height = 700        # Total height of the menu (keep if it fits your screen)
+    item_height = 74    # Height of each menu entry
+    item_padding = 0    # No padding around items
+    icon_width = 10      # Set to 0 to disable icons (free up space for text alignment)
+    icon_height = 0     # Set to 0 to disable icons
+    item_icon_space = 0 # Remove space reserved for icons (since icons are disabled)
+    item_spacing = 5    # Space between menu entries (keep minimal)
+    item_font = "Dersu Uzala brush Regular 54"
+    item_color = "#000000"
+    selected_item_font = "Dersu Uzala brush Regular 54"
+    selected_item_color = "#b14046"
+    selected_item_pixmap_style = "select_*.png" # Ensure this image exists
+}
+
++ label {
+    id = "__timeout__"
+    left = 42%
+    top = 90%
+    width = 150
+    height = 30
+    font = "Dersu Uzala brush Regular 54"
+    color = "#000000"
+    align = "center"
+    text = "Look mum ,Im in a splash: %ds"
+} 
