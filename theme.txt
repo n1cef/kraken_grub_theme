@@ -1,7 +1,7 @@
 
 title-text: "KrakenOs"
 title-font: "Dersu Uzala brush Regular 90"
-desktop-image: "astro.png"
+desktop-image: "mad.png"
 terminal-font: "Fira Code Regular 16"
 terminal-left: "0"
 terminal-top: "0"
